@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_3TPZsCbREeOtputgfCp4Fw" name="model">
   <packagedElement xmi:type="uml:Actor" xmi:id="_DbDgECbSEeOtputgfCp4Fw" name="Usuario"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_F9-v0CbSEeOtputgfCp4Fw" name="UseCase"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_GQk7sCbSEeOtputgfCp4Fw" name="UseCase1"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_F9-v0CbSEeOtputgfCp4Fw" name="registrar usuario">
+    <extensionPoint xmi:id="_PtASgCbVEeOtputgfCp4Fw" name=""/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GQk7sCbSEeOtputgfCp4Fw" name="crear viaje">
+    <extensionPoint xmi:id="_l-ILMCbVEeOtputgfCp4Fw" name=""/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_YiksYCbSEeOtputgfCp4Fw" name="A_usuario_usecase" memberEnd="_YiksYSbSEeOtputgfCp4Fw _YiksZCbSEeOtputgfCp4Fw">
     <ownedEnd xmi:id="_YiksYSbSEeOtputgfCp4Fw" name="usuario" type="_DbDgECbSEeOtputgfCp4Fw" association="_YiksYCbSEeOtputgfCp4Fw">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YiksYibSEeOtputgfCp4Fw" value="1"/>
@@ -22,5 +26,55 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cJr9BSbSEeOtputgfCp4Fw" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cJr9BibSEeOtputgfCp4Fw" value="1"/>
     </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_4PLWICbUEeOtputgfCp4Fw" name="Admin">
+    <generalization xmi:id="_7FyW4CbUEeOtputgfCp4Fw" general="_DbDgECbSEeOtputgfCp4Fw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__0MmwCbUEeOtputgfCp4Fw" name="consultar viaje"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AmZfwCbVEeOtputgfCp4Fw" name="A_usuario_crear ciaje" memberEnd="_AmZfwSbVEeOtputgfCp4Fw _AmZfxCbVEeOtputgfCp4Fw">
+    <ownedEnd xmi:id="_AmZfwSbVEeOtputgfCp4Fw" name="usuario" type="_DbDgECbSEeOtputgfCp4Fw" association="_AmZfwCbVEeOtputgfCp4Fw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AmZfwibVEeOtputgfCp4Fw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AmZfwybVEeOtputgfCp4Fw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_AmZfxCbVEeOtputgfCp4Fw" name="crear ciaje" type="_GQk7sCbSEeOtputgfCp4Fw" association="_AmZfwCbVEeOtputgfCp4Fw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AmZfxSbVEeOtputgfCp4Fw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AmZfxibVEeOtputgfCp4Fw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HIX_ACbVEeOtputgfCp4Fw" name="A_usuario_consultar viaje" memberEnd="_HIX_ASbVEeOtputgfCp4Fw _HIX_BCbVEeOtputgfCp4Fw">
+    <ownedEnd xmi:id="_HIX_ASbVEeOtputgfCp4Fw" name="usuario" type="_DbDgECbSEeOtputgfCp4Fw" association="_HIX_ACbVEeOtputgfCp4Fw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HIX_AibVEeOtputgfCp4Fw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HIX_AybVEeOtputgfCp4Fw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_HIX_BCbVEeOtputgfCp4Fw" name="consultar viaje" type="__0MmwCbUEeOtputgfCp4Fw" association="_HIX_ACbVEeOtputgfCp4Fw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HIX_BSbVEeOtputgfCp4Fw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HIX_BibVEeOtputgfCp4Fw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_I_obkCbVEeOtputgfCp4Fw" name="Administra sistema"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_K4T0cCbVEeOtputgfCp4Fw" name="A_admin_administra sistema" memberEnd="_K4T0cSbVEeOtputgfCp4Fw _K4T0dCbVEeOtputgfCp4Fw">
+    <ownedEnd xmi:id="_K4T0cSbVEeOtputgfCp4Fw" name="admin" type="_4PLWICbUEeOtputgfCp4Fw" association="_K4T0cCbVEeOtputgfCp4Fw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_K4T0cibVEeOtputgfCp4Fw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_K4T0cybVEeOtputgfCp4Fw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_K4T0dCbVEeOtputgfCp4Fw" name="administra sistema" type="_I_obkCbVEeOtputgfCp4Fw" association="_K4T0cCbVEeOtputgfCp4Fw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_K4T0dSbVEeOtputgfCp4Fw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_K4T0dibVEeOtputgfCp4Fw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_MJHVACbVEeOtputgfCp4Fw" name="Redes sociales">
+    <extend xmi:id="_PsswgCbVEeOtputgfCp4Fw" extendedCase="_F9-v0CbSEeOtputgfCp4Fw" extensionLocation="_PtASgCbVEeOtputgfCp4Fw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_MYvscCbVEeOtputgfCp4Fw" name="Registrar sistema">
+    <extend xmi:id="_Sd7iACbVEeOtputgfCp4Fw" extendedCase="_F9-v0CbSEeOtputgfCp4Fw" extensionLocation="_PtASgCbVEeOtputgfCp4Fw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_apcx8CbVEeOtputgfCp4Fw" name="crear lugar">
+    <extend xmi:id="_l-BdgCbVEeOtputgfCp4Fw" extendedCase="_GQk7sCbSEeOtputgfCp4Fw" extensionLocation="_l-ILMCbVEeOtputgfCp4Fw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_m-O9UCbVEeOtputgfCp4Fw" name="crear ruta">
+    <extend xmi:id="_p9IXYCbVEeOtputgfCp4Fw" extendedCase="_GQk7sCbSEeOtputgfCp4Fw" extensionLocation="_l-ILMCbVEeOtputgfCp4Fw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_rnQ98CbVEeOtputgfCp4Fw" name="elegir alojamiento">
+    <extend xmi:id="_sxVkYCbVEeOtputgfCp4Fw" extendedCase="_GQk7sCbSEeOtputgfCp4Fw" extensionLocation="_l-ILMCbVEeOtputgfCp4Fw"/>
   </packagedElement>
 </uml:Model>
