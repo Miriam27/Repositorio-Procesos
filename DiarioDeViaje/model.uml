@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_3TPZsCbREeOtputgfCp4Fw" name="model">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_DbDgECbSEeOtputgfCp4Fw" name="Usuario"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_F9-v0CbSEeOtputgfCp4Fw" name="UseCase"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GQk7sCbSEeOtputgfCp4Fw" name="UseCase1"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YiksYCbSEeOtputgfCp4Fw" name="A_usuario_usecase" memberEnd="_YiksYSbSEeOtputgfCp4Fw _YiksZCbSEeOtputgfCp4Fw">
+    <ownedEnd xmi:id="_YiksYSbSEeOtputgfCp4Fw" name="usuario" type="_DbDgECbSEeOtputgfCp4Fw" association="_YiksYCbSEeOtputgfCp4Fw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YiksYibSEeOtputgfCp4Fw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YiksYybSEeOtputgfCp4Fw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_YiksZCbSEeOtputgfCp4Fw" name="usecase" type="_F9-v0CbSEeOtputgfCp4Fw" association="_YiksYCbSEeOtputgfCp4Fw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YiksZSbSEeOtputgfCp4Fw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YiksZibSEeOtputgfCp4Fw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cJr9ACbSEeOtputgfCp4Fw" name="" memberEnd="_cJr9ASbSEeOtputgfCp4Fw _cJr9BCbSEeOtputgfCp4Fw">
+    <ownedEnd xmi:id="_cJr9ASbSEeOtputgfCp4Fw" name="usuario" type="_DbDgECbSEeOtputgfCp4Fw" association="_cJr9ACbSEeOtputgfCp4Fw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cJr9AibSEeOtputgfCp4Fw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cJr9AybSEeOtputgfCp4Fw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cJr9BCbSEeOtputgfCp4Fw" name="usuario" type="_DbDgECbSEeOtputgfCp4Fw" association="_cJr9ACbSEeOtputgfCp4Fw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cJr9BSbSEeOtputgfCp4Fw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cJr9BibSEeOtputgfCp4Fw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
