@@ -55,7 +55,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GQp0MybSEeOtputgfCp4Fw"/>
     </children>
     <element xmi:type="uml:UseCase" href="model.uml#_GQk7sCbSEeOtputgfCp4Fw"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GQn_ASbSEeOtputgfCp4Fw" x="295" y="325"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GQn_ASbSEeOtputgfCp4Fw" x="285" y="220"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_3UrkISbREeOtputgfCp4Fw"/>
   <element xmi:type="uml:Model" href="model.uml#_3TPZsCbREeOtputgfCp4Fw"/>
