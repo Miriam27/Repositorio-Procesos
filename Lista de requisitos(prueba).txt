@@ -1,0 +1,42 @@
+Requisitos Funcionales
+Registro
+1.	El sistema permite el registro de nuevos usuarios.
+2.	Un usuario está definido por:
+a.	Nombre y Apellidos
+b.	Dirección 
+c.	NIF
+d.	Correo electrónico
+e.	Teléfono
+3.	Con cada registro, el sistema envía un email al usuario para que este valide la cuenta.
+4.	El sistema permite que el usuario pueda registrarse en redes sociales desde la aplicación.
+Viajes
+5.	El usuario puede añadir nuevos viajes en el sistema.
+6.	Para crear un viaje se ha de indicar en lugar destino, el alojamiento y la ruta de dicho viaje.
+7.	La aplicación permite en cualquier momento consultar la información de un viaje del sistema.
+8.	El usuario puede modificar cualquiera de los atributos de un viaje ya creado.
+9.	El sistema permite que el usuario añada archivos, de foto o video, a un viaje ya creado.
+10.	El sistema permite que el usuario añada cometarios a un viaje ya creado.
+11.	El usuario puede suprimir un viaje del sistema en cualquier momento.
+Buscar
+12.	La aplicación da la opción de buscar lugares  y alojamientos al usuario.
+13.	La aplicación permite al usuario programar la ruta de un viaje.
+14.	En el sistema se almacena información sobre lugares, alojamientos y rutas.
+Usuario
+15.	El usuario podrá darse de baja en cualquier momento desde la aplicación
+16.	Cuando un usuario se da de baja se borran todos sus archivos.
+17.	El sistema permite al usuario cambiar su contraseña en cualquier momento. 
+18.	Un usuario podrá cambiar cualquier información de su perfil; nombre, teléfono, dirección…
+Administrador
+19.	El administrador podrá eliminar la cuenta de un usuario.
+20.	El administrado podrá ver los viajes de todos los usuarios.
+ 
+Requisitos de calidad
+21.	La clave de usuario y sincronización de archivos se realizará de manera encriptada, para proteger los archivos.
+22.	Las diferentes interfaces de la aplicación tendrán una apariencia amigable e intuitiva.
+23.	Un usuario no podrá acceder a información privada de otros usuarios, como los viajes etc.
+24.	La aplicación puede ser actualizada para añadir funcionalidad adicional o eliminar fallos en esta.
+Restricciones
+25.	No se permite el uso de publicidad interna y externa.
+26.	La aplicación debe ajustarse a la Ley Orgánica de Protección de Datos
+27.	Cada usuario tendrá un límite de espacio para almacenar sus viajes.
+28.	Un usuario solo puede estar registrado en una cuenta.
